@@ -32,7 +32,14 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 //$routes->get('/', 'Home::index');
-$routes->get('/', 'c_iklan::beranda');
+$routes->get('/', 'c_iklan::home');
+$routes->get('semua-iklan', 'c_iklan::all_ads');
+$routes->post('semua-iklan/cari', 'c_iklan::all_ads');
+$routes->get('pasang-iklan', 'c_iklan::add_ads');
+$routes->get('rinci/(:segment)', 'c_iklan::detail/$1');
+$routes->get('/kategori/(:segment)', 'c_iklan::category/$1');
+
+$routes->post('iklan/terbit', 'c_iklan::save_ads');
 
 /**
  * --------------------------------------------------------------------

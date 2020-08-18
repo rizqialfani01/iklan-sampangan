@@ -9,22 +9,23 @@
 <meta name="author" content="">
 <meta name="keywords" content="MediaCenter, Template, eCommerce">
 <meta name="robots" content="all">
-<title>Marazzo premium HTML5 & CSS3 Template</title>
+<title><?php echo $judul_halaman ?> | Ngiklan</title>
 
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css'); ?>">
 
 <!-- Customizable CSS -->
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/blue.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/owl.transitions.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/rateit.css">
-<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="<?= base_url('assets/css/main.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/blue.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/owl.carousel.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/owl.transitions.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/animate.min.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/rateit.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/bootstrap-select.min.css'); ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/custom.css'); ?>">
 
 <!-- Icons/Glyphs -->
-<link rel="stylesheet" href="assets/css/font-awesome.css">
+<link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.css'); ?>">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,300i,400,400i,500,500i,600,700,800" rel="stylesheet">

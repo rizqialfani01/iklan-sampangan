@@ -1,0 +1,178 @@
+.homebanner-holder .detail-block{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tombol-cari{
+	border: none;
+	height: 40px;
+}
+
+.hasil-cari{
+	padding: 0 20px;
+	font-size: 14px;
+}
+
+.border-judul{
+	border-bottom: 1px solid #eaeaea;
+}
+
+.heading-all-ads{
+	padding-bottom: 10px;
+	padding: 10px 0px;
+}
+
+.heading-detail-block{
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 10px;
+	padding: 10px 0px;
+}
+
+.heading-title-detail-block{
+	margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.aksi-grid-produk{
+	margin-top: 0px !important;
+	top: auto !important;
+	bottom: 0px !important;
+	opacity: 1 !important;
+	left: 0 !important;
+	position: relative !important;
+	margin-left: 0px !important;
+	padding: 4px 0px;
+}
+
+.tombol-aksi-kategori{
+	border-radius: 5px !important;
+/*	margin-left: 0 !important;
+	margin-right: 6px !important;*/
+	margin-left: 4.25px !important;
+	margin-right: 0px !important;
+	padding: 5px 8px !important;
+}
+
+.produk{
+	margin-top: 25px;
+	border: 2px solid #d4d4d4;
+	border-radius: 3px;
+}
+
+.kontainer-kategori{
+	padding-bottom: 5px !important;
+}
+
+.breadcrumb-sebaris{
+	display: inline !important;
+}
+
+.tombol-aksi-panduan{
+	padding: 10px 8px !important;
+}
+
+.grup-tombol-aksi-panduan{
+	float: right;
+}
+
+.paragraf-pasang-iklan{
+	font-size: 16px;
+	color: #40b62c;
+}
+
+.keterangan-form{
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.keterangan-form span{
+	color: red;
+}
+
+.teksarea{
+	width: 100% !important;
+	min-height: 200px !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    color: black;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#label-gambar{
+	margin-top: 20px;
+}
+
+#img-upload{
+    width: 35%;
+    margin-top: 10px;
+}
+
+.judul-iklan{
+	height: 45px;
+	word-wrap: break-word;
+}
+
+.deskripsi-produk{
+	font-family: 'Open Sans', sans-serif !important;
+	background-color: transparent !important;
+	border: transparent !important;
+	white-space: pre-wrap;
+	word-break: break-word;
+    line-height: 20px;
+    font-size: 14px;
+}
+}
+
+.peringatan{
+	color: red;
+}
+
+.text-input.is-invalid, #kategori.form-control.is-invalid, #gambar.is-invalid{
+	border-color: red;
+}
+
+.judul-ellips {
+	display: inline;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	padding: 0px 4px;
+}
+
+.tombol-wa {
+	color: white !important;
+	background-color: #4cae4c !important;
+	border-color: #4cae4c;
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+	.grup-tombol-aksi-panduan{
+		margin-top: 20px;
+		margin-bottom: 5px;
+		float: left;
+	}
+}
