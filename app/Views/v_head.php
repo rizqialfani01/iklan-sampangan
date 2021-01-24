@@ -11,6 +11,8 @@
 <meta name="robots" content="all">
 <title><?php echo $judul_halaman ?> | Ngiklan</title>
 
+<link rel="icon" type="image/ico" href="<?php echo base_url('public/assets/favicon/favicon.ico') ?>">
+
 <!-- Bootstrap Core CSS -->
 <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css'); ?>">
 
